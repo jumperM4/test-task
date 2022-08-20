@@ -1,3 +1,3 @@
-import sum from "./module";
+import _ from "lodash";
 
-console.log(sum(5, 5));
+console.log(_.last(['one', 'two']));
